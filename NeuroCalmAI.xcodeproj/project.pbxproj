@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4387D1922CA09A9900208D01 /* NeuroCalmAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */; };
+		4387D1942CA09A9900208D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1932CA09A9900208D01 /* ContentView.swift */; };
+		4387D1962CA09A9A00208D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387D1952CA09A9A00208D01 /* Assets.xcassets */; };
+		4387D1992CA09A9A00208D01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387D1982CA09A9A00208D01 /* Preview Assets.xcassets */; };
+		4387D1A32CA09A9A00208D01 /* NeuroCalmAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1A22CA09A9A00208D01 /* NeuroCalmAITests.swift */; };
+		4387D1AD2CA09A9A00208D01 /* NeuroCalmAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1AC2CA09A9A00208D01 /* NeuroCalmAIUITests.swift */; };
+		4387D1AF2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1AE2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4387D19F2CA09A9A00208D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4387D1862CA09A9900208D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4387D18D2CA09A9900208D01;
+			remoteInfo = NeuroCalmAI;
+		};
+		4387D1A92CA09A9A00208D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4387D1862CA09A9900208D01 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4387D18D2CA09A9900208D01;
+			remoteInfo = NeuroCalmAI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4387D18E2CA09A9900208D01 /* NeuroCalmAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroCalmAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIApp.swift; sourceTree = "<group>"; };
+		4387D1932CA09A9900208D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4387D1952CA09A9A00208D01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4387D1982CA09A9A00208D01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4387D19E2CA09A9A00208D01 /* NeuroCalmAITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroCalmAITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4387D1A22CA09A9A00208D01 /* NeuroCalmAITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAITests.swift; sourceTree = "<group>"; };
+		4387D1A82CA09A9A00208D01 /* NeuroCalmAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroCalmAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4387D1AC2CA09A9A00208D01 /* NeuroCalmAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIUITests.swift; sourceTree = "<group>"; };
+		4387D1AE2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4387D18B2CA09A9900208D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D19B2CA09A9A00208D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D1A52CA09A9A00208D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4387D1852CA09A9900208D01 = {
+			isa = PBXGroup;
+			children = (
+				4387D1902CA09A9900208D01 /* NeuroCalmAI */,
+				4387D1A12CA09A9A00208D01 /* NeuroCalmAITests */,
+				4387D1AB2CA09A9A00208D01 /* NeuroCalmAIUITests */,
+				4387D18F2CA09A9900208D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4387D18F2CA09A9900208D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4387D18E2CA09A9900208D01 /* NeuroCalmAI.app */,
+				4387D19E2CA09A9A00208D01 /* NeuroCalmAITests.xctest */,
+				4387D1A82CA09A9A00208D01 /* NeuroCalmAIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4387D1902CA09A9900208D01 /* NeuroCalmAI */ = {
+			isa = PBXGroup;
+			children = (
+				4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */,
+				4387D1932CA09A9900208D01 /* ContentView.swift */,
+				4387D1952CA09A9A00208D01 /* Assets.xcassets */,
+				4387D1972CA09A9A00208D01 /* Preview Content */,
+			);
+			path = NeuroCalmAI;
+			sourceTree = "<group>";
+		};
+		4387D1972CA09A9A00208D01 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4387D1982CA09A9A00208D01 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4387D1A12CA09A9A00208D01 /* NeuroCalmAITests */ = {
+			isa = PBXGroup;
+			children = (
+				4387D1A22CA09A9A00208D01 /* NeuroCalmAITests.swift */,
+			);
+			path = NeuroCalmAITests;
+			sourceTree = "<group>";
+		};
+		4387D1AB2CA09A9A00208D01 /* NeuroCalmAIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4387D1AC2CA09A9A00208D01 /* NeuroCalmAIUITests.swift */,
+				4387D1AE2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift */,
+			);
+			path = NeuroCalmAIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4387D18D2CA09A9900208D01 /* NeuroCalmAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4387D1B22CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAI" */;
+			buildPhases = (
+				4387D18A2CA09A9900208D01 /* Sources */,
+				4387D18B2CA09A9900208D01 /* Frameworks */,
+				4387D18C2CA09A9900208D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeuroCalmAI;
+			productName = NeuroCalmAI;
+			productReference = 4387D18E2CA09A9900208D01 /* NeuroCalmAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4387D19D2CA09A9A00208D01 /* NeuroCalmAITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4387D1B52CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAITests" */;
+			buildPhases = (
+				4387D19A2CA09A9A00208D01 /* Sources */,
+				4387D19B2CA09A9A00208D01 /* Frameworks */,
+				4387D19C2CA09A9A00208D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4387D1A02CA09A9A00208D01 /* PBXTargetDependency */,
+			);
+			name = NeuroCalmAITests;
+			productName = NeuroCalmAITests;
+			productReference = 4387D19E2CA09A9A00208D01 /* NeuroCalmAITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4387D1A72CA09A9A00208D01 /* NeuroCalmAIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4387D1B82CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAIUITests" */;
+			buildPhases = (
+				4387D1A42CA09A9A00208D01 /* Sources */,
+				4387D1A52CA09A9A00208D01 /* Frameworks */,
+				4387D1A62CA09A9A00208D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4387D1AA2CA09A9A00208D01 /* PBXTargetDependency */,
+			);
+			name = NeuroCalmAIUITests;
+			productName = NeuroCalmAIUITests;
+			productReference = 4387D1A82CA09A9A00208D01 /* NeuroCalmAIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4387D1862CA09A9900208D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					4387D18D2CA09A9900208D01 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					4387D19D2CA09A9A00208D01 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4387D18D2CA09A9900208D01;
+					};
+					4387D1A72CA09A9A00208D01 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 4387D18D2CA09A9900208D01;
+					};
+				};
+			};
+			buildConfigurationList = 4387D1892CA09A9900208D01 /* Build configuration list for PBXProject "NeuroCalmAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4387D1852CA09A9900208D01;
+			productRefGroup = 4387D18F2CA09A9900208D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4387D18D2CA09A9900208D01 /* NeuroCalmAI */,
+				4387D19D2CA09A9A00208D01 /* NeuroCalmAITests */,
+				4387D1A72CA09A9A00208D01 /* NeuroCalmAIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4387D18C2CA09A9900208D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4387D1992CA09A9A00208D01 /* Preview Assets.xcassets in Resources */,
+				4387D1962CA09A9A00208D01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D19C2CA09A9A00208D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D1A62CA09A9A00208D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4387D18A2CA09A9900208D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4387D1942CA09A9900208D01 /* ContentView.swift in Sources */,
+				4387D1922CA09A9900208D01 /* NeuroCalmAIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D19A2CA09A9A00208D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4387D1A32CA09A9A00208D01 /* NeuroCalmAITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4387D1A42CA09A9A00208D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4387D1AD2CA09A9A00208D01 /* NeuroCalmAIUITests.swift in Sources */,
+				4387D1AF2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4387D1A02CA09A9A00208D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4387D18D2CA09A9900208D01 /* NeuroCalmAI */;
+			targetProxy = 4387D19F2CA09A9A00208D01 /* PBXContainerItemProxy */;
+		};
+		4387D1AA2CA09A9A00208D01 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4387D18D2CA09A9900208D01 /* NeuroCalmAI */;
+			targetProxy = 4387D1A92CA09A9A00208D01 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4387D1B02CA09A9A00208D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4387D1B12CA09A9A00208D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4387D1B32CA09A9A00208D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroCalmAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4387D1B42CA09A9A00208D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeuroCalmAI/Preview Content\"";
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAI";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4387D1B62CA09A9A00208D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroCalmAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroCalmAI";
+			};
+			name = Debug;
+		};
+		4387D1B72CA09A9A00208D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NeuroCalmAI.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NeuroCalmAI";
+			};
+			name = Release;
+		};
+		4387D1B92CA09A9A00208D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroCalmAI;
+			};
+			name = Debug;
+		};
+		4387D1BA2CA09A9A00208D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9L722Z997M;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Fatemeh-Saeedi.NeuroCalmAIUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = NeuroCalmAI;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4387D1892CA09A9900208D01 /* Build configuration list for PBXProject "NeuroCalmAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4387D1B02CA09A9A00208D01 /* Debug */,
+				4387D1B12CA09A9A00208D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4387D1B22CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4387D1B32CA09A9A00208D01 /* Debug */,
+				4387D1B42CA09A9A00208D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4387D1B52CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4387D1B62CA09A9A00208D01 /* Debug */,
+				4387D1B72CA09A9A00208D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4387D1B82CA09A9A00208D01 /* Build configuration list for PBXNativeTarget "NeuroCalmAIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4387D1B92CA09A9A00208D01 /* Debug */,
+				4387D1BA2CA09A9A00208D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4387D1862CA09A9900208D01 /* Project object */;
+}
