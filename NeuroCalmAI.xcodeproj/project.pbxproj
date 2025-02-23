@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43075DE82CA3C517000A10DE /* EnvManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43075DE72CA3C517000A10DE /* EnvManager.swift */; };
+		43075DEA2CA3C56C000A10DE /* .env in Resources */ = {isa = PBXBuildFile; fileRef = 43075DE92CA3C56C000A10DE /* .env */; };
 		4387D1922CA09A9900208D01 /* NeuroCalmAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */; };
 		4387D1942CA09A9900208D01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1932CA09A9900208D01 /* ContentView.swift */; };
 		4387D1962CA09A9A00208D01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4387D1952CA09A9A00208D01 /* Assets.xcassets */; };
@@ -14,6 +16,14 @@
 		4387D1A32CA09A9A00208D01 /* NeuroCalmAITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1A22CA09A9A00208D01 /* NeuroCalmAITests.swift */; };
 		4387D1AD2CA09A9A00208D01 /* NeuroCalmAIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1AC2CA09A9A00208D01 /* NeuroCalmAIUITests.swift */; };
 		4387D1AF2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1AE2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift */; };
+		4387D1BC2CA09AF800208D01 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1BB2CA09AF800208D01 /* WelcomeView.swift */; };
+		4387D1BE2CA09B2B00208D01 /* MigraineInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1BD2CA09B2B00208D01 /* MigraineInfoView.swift */; };
+		4387D1C02CA09E0500208D01 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1BF2CA09E0500208D01 /* ChatBotView.swift */; };
+		4387D1C22CA09E2A00208D01 /* EyeMovementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1C12CA09E2A00208D01 /* EyeMovementView.swift */; };
+		4387D1C42CA09E5100208D01 /* BreathingExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1C32CA09E5100208D01 /* BreathingExerciseView.swift */; };
+		4387D1C62CA09FDE00208D01 /* MigraineModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1C52CA09FDE00208D01 /* MigraineModel.swift */; };
+		4387D1C82CA0A5FE00208D01 /* MigraineDetailInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1C72CA0A5FE00208D01 /* MigraineDetailInfoView.swift */; };
+		4387D1CC2CA0B5C100208D01 /* APIKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4387D1CB2CA0B5C100208D01 /* APIKeyView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43075DE72CA3C517000A10DE /* EnvManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvManager.swift; sourceTree = "<group>"; };
+		43075DE92CA3C56C000A10DE /* .env */ = {isa = PBXFileReference; lastKnownFileType = text; path = .env; sourceTree = "<group>"; };
 		4387D18E2CA09A9900208D01 /* NeuroCalmAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeuroCalmAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIApp.swift; sourceTree = "<group>"; };
 		4387D1932CA09A9900208D01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +56,14 @@
 		4387D1A82CA09A9A00208D01 /* NeuroCalmAIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeuroCalmAIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4387D1AC2CA09A9A00208D01 /* NeuroCalmAIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIUITests.swift; sourceTree = "<group>"; };
 		4387D1AE2CA09A9A00208D01 /* NeuroCalmAIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeuroCalmAIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4387D1BB2CA09AF800208D01 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		4387D1BD2CA09B2B00208D01 /* MigraineInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineInfoView.swift; sourceTree = "<group>"; };
+		4387D1BF2CA09E0500208D01 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		4387D1C12CA09E2A00208D01 /* EyeMovementView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EyeMovementView.swift; sourceTree = "<group>"; };
+		4387D1C32CA09E5100208D01 /* BreathingExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreathingExerciseView.swift; sourceTree = "<group>"; };
+		4387D1C52CA09FDE00208D01 /* MigraineModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineModel.swift; sourceTree = "<group>"; };
+		4387D1C72CA0A5FE00208D01 /* MigraineDetailInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MigraineDetailInfoView.swift; sourceTree = "<group>"; };
+		4387D1CB2CA0B5C100208D01 /* APIKeyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeyView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +116,18 @@
 			children = (
 				4387D1912CA09A9900208D01 /* NeuroCalmAIApp.swift */,
 				4387D1932CA09A9900208D01 /* ContentView.swift */,
+				4387D1BB2CA09AF800208D01 /* WelcomeView.swift */,
+				4387D1C52CA09FDE00208D01 /* MigraineModel.swift */,
+				4387D1C72CA0A5FE00208D01 /* MigraineDetailInfoView.swift */,
+				4387D1BD2CA09B2B00208D01 /* MigraineInfoView.swift */,
+				43075DE72CA3C517000A10DE /* EnvManager.swift */,
+				4387D1CB2CA0B5C100208D01 /* APIKeyView.swift */,
+				4387D1BF2CA09E0500208D01 /* ChatBotView.swift */,
+				4387D1C12CA09E2A00208D01 /* EyeMovementView.swift */,
+				4387D1C32CA09E5100208D01 /* BreathingExerciseView.swift */,
 				4387D1952CA09A9A00208D01 /* Assets.xcassets */,
 				4387D1972CA09A9A00208D01 /* Preview Content */,
+				43075DE92CA3C56C000A10DE /* .env */,
 			);
 			path = NeuroCalmAI;
 			sourceTree = "<group>";
@@ -231,6 +261,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43075DEA2CA3C56C000A10DE /* .env in Resources */,
 				4387D1992CA09A9A00208D01 /* Preview Assets.xcassets in Resources */,
 				4387D1962CA09A9A00208D01 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +288,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4387D1C42CA09E5100208D01 /* BreathingExerciseView.swift in Sources */,
+				4387D1BE2CA09B2B00208D01 /* MigraineInfoView.swift in Sources */,
+				4387D1C02CA09E0500208D01 /* ChatBotView.swift in Sources */,
+				4387D1C82CA0A5FE00208D01 /* MigraineDetailInfoView.swift in Sources */,
+				4387D1C62CA09FDE00208D01 /* MigraineModel.swift in Sources */,
 				4387D1942CA09A9900208D01 /* ContentView.swift in Sources */,
+				4387D1C22CA09E2A00208D01 /* EyeMovementView.swift in Sources */,
+				4387D1BC2CA09AF800208D01 /* WelcomeView.swift in Sources */,
 				4387D1922CA09A9900208D01 /* NeuroCalmAIApp.swift in Sources */,
+				43075DE82CA3C517000A10DE /* EnvManager.swift in Sources */,
+				4387D1CC2CA0B5C100208D01 /* APIKeyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
